@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Sederhana - Home, Artikel, Galeri</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <style>
+      body.dark-mode {
+        background-color: #121212;
+        color: white;
+      }
+      #home {
+        background-image: url(image/cars-kreak.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Arl_Afj</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#artikel">Artikel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#galeri">Galeri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#schedule">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About Me">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.php">Login</a>
+          </li>
+        </ul>
+          <button id="dark-mode" class="btn btn-outline-light ms-2">
+            <i class="fas fa-moon"></i> Dark
+          </button>
+          <button id="light-mode" class="btn btn-outline-light ms-2">
+            <i class="fas fa-sun"></i> Light
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="bg-light py-5">
+      <div class="container text-center">
+        <h1>Selamat Datang</h1>
+        <h2>Di WebSite Karakter Cars</h2>
+        <p class="lead">
+          Ini adalah halaman berisi artikel dengan kategori Karakter, silahkan pilih salah satu artikel di bawah dan selamat membaca!
+        </p>
+        <a href="#artikel" class="btn btn-dark">Lihat Artikel</a>
+      </div>
+    </section>
+
+    <section id="artikel" class="container my-5">
+      <h2 class="text-center mb-4"><b>Artikel</b></h2>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="image/mcqueen.jpg"
+              class="card-img-top"
+              alt="Uzumaki Naruto"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>Lightning McQueen</b></h5>
+              <p class="card-text">
+                Dia adalah Lightning McQueen yang menjadi tokoh utama dalam film Cars. 
+                Mcqueen merupakan mobil balap yang diproduksi pada tahun 2006 dan dia sangat terobsesi untuk memenangkan piala Piston. Pada awal kemunculannya, McQueen memiliki sikap yang sangat angkuh dan tidak peduli dengan karakter di sekelilingnya. 
+                Hidup McQueen berubah setelah dia bertemu dengan teman-temannya di Radiator Springs. Di sana, dia belajar hal-hal baru dan menjalin pertemanan dengan Mater, Sally, Doc, Guido, dan masih banyak lagi. McQueen perlahan pun luluh dan dia menjadi karakter yang ramah.
+              </p>
+              <a href="#" class="btn btn-dark">Baca lebih lanjut...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="image/mater.png"
+              class="card-img-top"
+              alt="Sakura Haruno"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>Mater</b></h5>
+              <p class="card-text">
+                Karakter terbaik Cars berikutnya adalah Mater yang merupakan sahabat terbaik dari McQueen. Di Radiator Springs, Mater adalah satu-satunya mobil derek yang ada di sana. Mater merupakan karakter yang ceria dan senang bercanda dengan karakter lain. Selain itu, dia juga senang membuat prank ke orang lain.
+                Salah satu hobi gila Mater adalah dia seringkali mengganggu para traktor yang tengah tertidur di malam hari, meskipun Mater sangat jahil.
+
+              </p>
+              <a href="#" class="btn btn-dark">Baca lebih lanjut...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="image/doc.jpg"
+              class="card-img-top"
+              alt="Sasuke Uchiha"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>Doc Hudson</b></h5>
+              <p class="card-text">
+                Doc Hudson adalah salah satu legenda dalam dunia balapan di film Cars. Dia merupakan mobil balap yang sangat terkenal dalam sejarah dan pernah menjuarai piala Piston sebanyak tiga kali dan masih memegang rekor kemenangan terbanyak dalam satu musim. 
+                Karier Doc berakhir setelah dia mengalami insiden kecelakaan pada saat balapan. Doc kemudian sampai di Radiator Springs dan memutuskan untuk hidup normal. Selain bertugas sebagai hakim, Doc juga berperan sebagai dokter di sana. 
+                Sosok Doc sangat dihormati oleh para warga Radiator Springs.
+ 
+              </p>
+              <a href="#" class="btn btn-dark">Baca lebih lanjut...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="image/sally.jpg"
+              class="card-img-top"
+              alt="Itachi Uchiha"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>Sally</b></h5>
+              <p class="card-text">
+                Sally adalah karakter mobil cantik berwarna biru langit yang menjadi pacar McQueen dalam film Cars. Dia dulunya seorang pengacara di Los Angeles, tetapi dia bosan dengan kehidupannya dan memilih pindah ke Radiator Springs.
+                Sally sangat cantik dan menjadi primadona di Radiator Springs. Dia juga sangat cerdas. Setelah kedatangan McQueen di Radiator Springs, Sally pun jatuh cinta kepadanya dan mereka pun berpacaran. Uniknya, Sally memiliki nama julukan kepada McQUeen, yaitu Stickers.
+              </p>
+              <a href="#" class="btn btn-dark">Baca lebih lanjut...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="image/guido.jpg"
+              class="card-img-top"
+              alt="Kakashi Hatake"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>Guido</b></h5>
+              <p class="card-text">
+                Guido adalah karakter truk forklift atau truk garpu yang bekerja bersama Luigi. Sama seperti bosnya, Guido sangat terobsesi dan merupakan fans berat balapan sirkuit. Dia juga bercita-cita untuk menjadi kru pit profesional dan menghentikan mobil balapan secara real.
+                Mimpi Guido pun terpenuhi ketika dia menjadi kru pit McQueen di bawah arahan Doc Hudson. Meskipun sempat diejek oleh kru pit Chick, Guido pun menunjukkan bakat aslinya. Dia mampu mengganti ban McQueen dalam sekejap mata dan membuat kru pit Chick terdiam seribu bahasa.
+
+              </p>
+              <a href="#" class="btn btn-dark">Baca lebih lanjut...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="image/luigi.jpg"
+              class="card-img-top"
+              alt="Obito Uchiha"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>Luigi</b></h5>
+              <p class="card-text">
+                Berikutnya, ada Luigi yang merupakan bos dari Guido. Luigi menjalankan sebuah bisnis ban lokal di Radiator Springs. Toko milik Luigi menawarkan kolek si ban terbaik dari daerah barat Mississipi. Tokonya juga terkenal karena layanannya yang sempurna, harga yang kompetitif, dan tentu saja karena pemiliknya yang stylish.
+                Sama seperti Guido, Luigi juga merupakan penggemar berat balapan ferrari. Dia sangat senang ketika pembalap ferrari, yakni Michael Schumacher mampir ke tokonya untuk mengganti ban.
+
+              </p>
+              <a href="#" class="btn btn-dark">Baca lebih lanjut...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeri" class="container my-5">
+      <h2 class="text-center mb-4"><b>Gallery</b></h2>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/cars-kreak.jpg" class="d-block w-100" alt="Gambar 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="image/cars-3-movie-2017-disney-pixar.webp" class="d-block w-100" alt="Gambar 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="image/cars ber3.jpg" class="d-block w-100" alt="Gambar 3" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <footer class="btn-dark text-white text-center py-3">
+      <div class="d-flex justify-content-center mb-2">
+        <a href="https://instagram.com" class="h2 p-2 text-dark">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com" class="h2 p-2 text-dark">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://whatsapp.com" class="h2 p-2 text-dark">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+
+      <div>
+        <p id="footer-text" class="text-dark">&copy; MadRielSo. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script>
+      const darkModeButton = document.getElementById("dark-mode");
+      const lightModeButton = document.getElementById("light-mode");
+      const socialIcons = document.querySelectorAll("footer a");
+      const footerText = document.getElementById("footer-text");
+    
+      darkModeButton.addEventListener("click", () => {
+        document.body.classList.add("dark-mode");
+        socialIcons.forEach(icon => icon.classList.add("text-light"));
+        socialIcons.forEach(icon => icon.classList.remove("text-dark"));
+        footerText.classList.add("text-light"); // ubah teks footer jadi terang
+        footerText.classList.remove("text-dark");
+      });
+    
+      lightModeButton.addEventListener("click", () => {
+        document.body.classList.remove("dark-mode");
+        socialIcons.forEach(icon => icon.classList.add("text-dark"));
+        socialIcons.forEach(icon => icon.classList.remove("text-light"));
+        footerText.classList.add("text-dark"); // ubah teks footer jadi gelap
+        footerText.classList.remove("text-light");
+      });
+    </script>
+  </body>
+</html>
